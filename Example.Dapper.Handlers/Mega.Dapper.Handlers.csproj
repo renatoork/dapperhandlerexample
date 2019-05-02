@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Example Sistemas</Authors>
+    <Company></Company>
+    <Description>Com essa package será possível trabalhar com a tradução das propriedades do tipo boolean e enum utilizando o Dapper.</Description>
+    <PackageProjectUrl>https://bitbucket.org/megasistemas/dapperhandlers</PackageProjectUrl>
+    <RepositoryUrl>https://bitbucket.org/megasistemas/Example.dapper.handlers</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0-beta002</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MegaDapper" Version="1.9.0-beta1" />
+    <PackageReference Include="System.Data.Common" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.3.0" />
+    <PackageReference Include="System.Threading.Tasks.Parallel" Version="4.3.0" />
+  </ItemGroup>
+</Project>

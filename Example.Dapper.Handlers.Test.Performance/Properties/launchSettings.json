@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Example.Dapper.Handlers.Test.Performance": {
+      "commandName": "Project"
+    }
+  }
+}

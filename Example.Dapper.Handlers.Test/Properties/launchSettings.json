@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Example.Dapper.Handlers.Test": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ORACLE_TEST": "\"Data Source=CACADOR;User Id=Example;Password=megamega;Pooling=true\""
+      }
+    }
+  }
+}

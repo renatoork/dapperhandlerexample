@@ -1,0 +1,19 @@
+10000 linhas
+             Method |     Mean |     Error |    StdDev | Scaled | ScaledSD |
+------------------- |---------:|----------:|----------:|-------:|---------:|
+    TesteSemHandler | 48.63 ms | 0.4302 ms | 0.1117 ms |   1.00 |     0.00 |
+  TesteHandlerTodos | 67.11 ms | 3.7616 ms | 0.9771 ms |   1.38 |     0.02 |
+ TesteHandlerString | 58.20 ms | 3.3495 ms | 0.8700 ms |   1.20 |     0.02 |
+   TesteHandlerChar | 54.73 ms | 2.3096 ms | 0.5999 ms |   1.13 |     0.01 |
+   TesteHandlerBool | 55.37 ms | 1.2833 ms | 0.3333 ms |   1.14 |     0.01 |
+  TesteHandlerVazia | 47.77 ms | 1.2040 ms | 0.3127 ms |   0.98 |     0.01 |
+
+100000 linhas
+             Method |     Mean |     Error |    StdDev | Scaled | ScaledSD |
+------------------- |---------:|----------:|----------:|-------:|---------:|
+    TesteSemHandler | 329.5 ms |  5.760 ms |  1.496 ms |   1.00 |     0.00 |
+  TesteHandlerTodos | 515.9 ms |  4.134 ms |  1.074 ms |   1.57 |     0.01 |
+ TesteHandlerString | 384.9 ms |  7.741 ms |  2.011 ms |   1.17 |     0.01 |
+   TesteHandlerChar | 367.5 ms | 69.377 ms | 18.020 ms |   1.12 |     0.05 |
+   TesteHandlerBool | 384.3 ms | 12.206 ms |  3.170 ms |   1.17 |     0.01 |
+  TesteHandlerVazia | 324.1 ms |  7.803 ms |  2.027 ms |   0.98 |     0.01 |
